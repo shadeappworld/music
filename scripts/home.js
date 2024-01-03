@@ -95,7 +95,7 @@ var name = data.data.songs.results[i].title;
 var thumb = data.data.songs.results[i].image[1].link;
 var id = data.data.songs.results[i].id;
                     
-document.getElementById("song_results").innerHTML += `<a><div onclick="fetch_id('${id}')" id="card">
+document.getElementById("song_results").innerHTML += `<a><div onclick="window.location.href='song.html?id=${id}'" id="card">
 <img src="${thumb}">
 <p>${name}</p>
 </div></a>`
@@ -163,7 +163,7 @@ for(var i=0;i<info.trending.songs.length;i++){
 var name = info.trending.songs[i].name;
 var thumb = info.trending.songs[i].image[1].link;
 var id = info.trending.songs[i].id;
-document.getElementById("trending_songs").innerHTML += `<a><div onclick="fetch_id('${id}')" id="card">
+document.getElementById("trending_songs").innerHTML += `<a><div onclick="window.location.href='song.html?id=${id}'" id="card">
 <img src="${thumb}">
 <p>${name}</p>
 </div></a>`
