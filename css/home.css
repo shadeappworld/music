@@ -12,7 +12,7 @@ height:150px;
 }
 #card{
 width:155px;
-height:200px;
+height:210px;
 padding:5px;
 margin:5px;
 border-radius:15px;
@@ -62,7 +62,6 @@ height:40px;
 border-radius: 20px;
 border-color: #fff;
 color: #ffffff;
-background:;
 font-size:1.0em;
 padding-left: 45px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

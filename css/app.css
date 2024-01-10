@@ -10,7 +10,7 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: #181c25;
+  background: #181c25;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -37,7 +37,7 @@ body {
 
 .navbar a:hover {
   background: #181c25;
-  color: black;
+  color: #fff;
   border-radius: 45px;
   transition: all 0.4s;
   margin: 50px;
@@ -78,7 +78,7 @@ object {
   transition: all 1s;
   opacity: 1;
   backdrop-filter: blur(2px);
-  box-shadow: 5px 5px 15px 5px grey;
+  box-shadow: 1px 2px 3px 4px grey;
   z-index: 1;
   border-radius: 15px 0px 0px 15px;
 }
@@ -150,7 +150,7 @@ object {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background: #ffccbc;
+  background: #181c25;
   border-radius: 15px;
   opacity: 0.99;
   backdrop-filter: blur(2px);

@@ -33,9 +33,11 @@ body {
 
 .player {
   background: #181c25;
+  background: transparent;
+backdrop-filter: blur(3px); 
   width: 410px;
   min-height: 480px;
-  box-shadow: 5px 5px 35px 5px grey;
+  box-shadow: 2px 2px 2px 1px grey;
   border-radius: 15px;
   padding: 30px;
 }
@@ -67,8 +69,9 @@ body {
   flex-shrink: 0;
   position: relative;
   z-index: 2;
-  border-radius: 15px;
   z-index: 1;
+  background: transparent;
+backdrop-filter: blur(3px); 
 }
 @media screen and (max-width: 576px), (max-height: 500px) {
   .player-cover {
@@ -222,7 +225,7 @@ body {
   display: none;
 }
 .player-controls__item.-favorite.active {
-  color: red;
+  color: pink;
 }
 
 [v-cloak] {
@@ -391,7 +394,7 @@ body {
   width: 350px;
   min-height: 280px;
   max-height: 280px;
-  box-shadow: 5px 5px 35px 5px grey;
+  box-shadow: 5px 5px 5px 5px grey;
   border-radius: 15px 15px 15px 15px;
   padding: 0px;
   padding-bottom: 5px;
