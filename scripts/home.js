@@ -185,7 +185,7 @@ for(var i=0;i<info.albums.length;i++){
 var name = info.albums[i].name;
 var thumb = info.albums[i].image[1].link;
 var id = info.albums[i].id;
-document.getElementById("albums").innerHTML += `<div id="card" onclick="window.location.href='albums.html?id=${id}'">
+document.getElementById("albums").innerHTML += `<div id="card" onclick="window.location.href='song.html?id=${id}'">
 <img src="${thumb}">
 <p>${name}</p>
 </div>`
