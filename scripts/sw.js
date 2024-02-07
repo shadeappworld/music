@@ -1,6 +1,6 @@
 // sw.js
 
-const CACHE_NAME = 'lovely-cache3';
+const CACHE_NAME = 'lovely-cache4';
 const urlsToCache = [
     '/index.html'
 ];
